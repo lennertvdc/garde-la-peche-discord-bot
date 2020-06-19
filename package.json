@@ -11,5 +11,11 @@
     "type": "git",
     "url": "https://github.com/lennertvdc/garde-la-peche-discord-bot.git"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
