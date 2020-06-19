@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "author": "Lennert Vandecasteele",
   "repository": {
@@ -13,6 +14,7 @@
   },
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.2",
     "discord.js": "^12.2.0"
   },
   "devDependencies": {
